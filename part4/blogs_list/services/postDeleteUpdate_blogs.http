@@ -1,0 +1,17 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJpaWtrYUpLIiwiaWQiOiI2MThkNWQ4ODE2NjVkZmVjNTQ4NjFkYmQiLCJpYXQiOjE2MzY4ODg3NzR9.X-woK2948SFXSbJ6G1C7jU1Guw8T8BdXAz27ap2CLkE
+
+{
+  "title": "Testing middleware with user authentication",
+  "author": "riikkawho",
+  "url": "testi.com",
+  "likes": "2",
+  "userId": "618ad105867f549c0704a7e5"
+}
+
+###
+
+
+DELETE http://localhost:3003/api/blogs/619185ca3fb99a9856028d41
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJpaWtrYUpLIiwiaWQiOiI2MThkNWQ4ODE2NjVkZmVjNTQ4NjFkYmQiLCJpYXQiOjE2MzY4ODg3NzR9.X-woK2948SFXSbJ6G1C7jU1Guw8T8BdXAz27ap2CLkE
